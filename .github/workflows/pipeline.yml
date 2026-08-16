@@ -29,8 +29,6 @@ jobs:
 
       - name: Mostrar fecha y hora
         run: date
-      - name: Paso que falla intencionalmente
-        run: exit 1
 
       - name: Mostrar versión de Git
         run: git --version
